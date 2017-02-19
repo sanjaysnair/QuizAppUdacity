@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        CheckBox q2_a1_checkbox = (CheckBox) findViewById(R.id.q2_a1);
         CheckBox q2_a2_checkbox = (CheckBox) findViewById(R.id.q2_a2);
         CheckBox q2_a3_checkbox = (CheckBox) findViewById(R.id.q2_a3);
 
@@ -98,11 +99,11 @@ public class MainActivity extends AppCompatActivity {
             quiz_summary += getString(R.string.success_q1);
         }
 
-        if (q2_a2_checkbox.isChecked() == false || q2_a3_checkbox.isChecked() == false) {
+        if (q2_a1_checkbox.isChecked() == false && q2_a2_checkbox.isChecked() == true && q2_a3_checkbox.isChecked() == true) {
+            quiz_summary += "\n" + getString(R.string.success_q2);
+        } else {
             quiz_summary += "\n" + getString(R.string.err_q2);
             error_count++;
-        } else {
-            quiz_summary += "\n" + getString(R.string.success_q2);
         }
 
         if (q3_ans != getString(R.string.a_nougat)) {
