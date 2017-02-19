@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">General Knowledge Quiz</string>
+
+    <string name="q_linux_creator">1. Who created Linux Kernel?</string>
+    <string name="a_bill">Bill Gates</string>
+    <string name="a_steve">Steve Jobs</string>
+    <string name="a_linus">Linus Torvalds</string>
+    <string name="err_q1">1. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q1">1. Well done</string>
+
+    <string name="q_apple_founder">2. Founder of Apple?</string>
+    <string name="a_r_stallman">Richard Stallman</string>
+    <string name="a_steve_jobs">Steve Jobs</string>
+    <string name="a_steve_woz">Steve Wozniak</string>
+    <string name="a_guy">Guy Kawasaki</string>
+    <string name="err_q2">2. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q2">2. Well done</string>
+
+    <string name="q_latest_android">3. Latest Android version?</string>
+    <string name="a_nougat">Nougat</string>
+    <string name="a_lollipop">Lollipop</string>
+    <string name="a_froyo">Froyo</string>
+    <string name="err_q3">3. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q3">3. Well done</string>
+
+    <string name="q_marley">4. Identify the person?</string>
+    <string name="a_jackson">Michael Jackson</string>
+    <string name="a_einstein">Albert Einstein</string>
+    <string name="a_bob_marley">Bob Marley</string>
+    <string name="err_q4">4. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q4">4. Well done</string>
+
+    <string name="q_fib">5. Identify the number sequence? 1, 1, 2, 3, 5, 8, 13 .. </string>
+    <string name="a_prime">Prime</string>
+    <string name="a_fib">Fibonacci</string>
+    <string name="a_binary">Binary</string>
+    <string name="err_q5">5. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q5">5. Well done</string>
+
+    <string name="q_arithemetic">6. Write the result of expression: 5 + 5 * 10 </string>
+    <string name="err_q6">6. You haven\'t got it right! Try Again :)</string>
+    <string name="success_q6">6. Well done</string>
+
+    <string name="err_msg_part">Please select an answer for question:\n</string>
+    <string name="err_msg_part2">Please enter correct input:\n</string>
+
+    <string name="result">"Quiz Result\n\n"</string>
+    <string name="summary">"\n\nOut of 6 question you have corrected "</string>
+    <string name="congrats">"\n\nCONGRATULATION!!"</string>
+</resources>
